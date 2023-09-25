@@ -1,0 +1,110 @@
+.row {
+    padding:30px;
+}
+div {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+h2{
+    font-size:1.5rem;
+    font-weight:400;
+}
+h3, h4 {
+    display:inline;
+}
+.container-ed{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.redondo{
+    display: block;
+    margin-top:-25px;
+    padding:3px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-self: center;
+    background-color: #3e5f68;
+}
+.redondo:hover{
+    background-color: #141b1d;
+}
+button img{
+    width:100%
+}
+.modal{
+    background-color: transparent;
+   
+}
+.modal-dialog{
+    background-color:#3e5f68;
+}
+
+.modal-header{
+	padding:6px 10px 2px 6px;
+	background-color:#3e5f68;
+	border:0px;
+	height:50px;
+}
+.modal-header h4{
+    font-size: 1rem;
+    padding-top:10px;
+    padding-left: 30px;
+    color: #fff;
+}
+.modal-body{
+    padding:30px 40px 20px 40px;
+
+}
+.modal-input{
+	background-color:#fff;
+	border:1px solid #3e5f68
+}
+.modal-footer{
+	border-top:none;
+	padding:20px 15px 10px 15px;
+}
+.card {
+    width: 18rem;
+    padding:5px;
+    margin:10px;
+}
+.card:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.card-header{
+    color:#fff;
+    background-color: #3e5f68;
+}
+.continer-button{
+    width:0.8rem;
+    height: 0.8rem;
+    text-align: center;
+}
+.containerbody{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgcard {
+    width: 100%;
+} 
+
+
+img.button-icon.edit{
+    width:0.9rem;
+}
+img.button-icon.trash{
+    filter:invert(100%);
+    -webkit-filter:invert(100%);
+    width: 0.68rem;
+}
+.container-buttonIcon{
+    display:flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    margin-top: -25px;
+    margin-left: -15px;
+}

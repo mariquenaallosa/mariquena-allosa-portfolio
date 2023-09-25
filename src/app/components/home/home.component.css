@@ -1,0 +1,75 @@
+div.home-container {
+    background-color:#21252b ;
+    height: calc(100vh - 40px);
+}
+.home{
+    width: 100%;
+    height: calc(100vh - 62px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home__nombre {
+    color: #c2c2c2;
+    margin: 10px 20px;
+    padding: 0;
+    font-size: 2.2rem;
+    font-weight: 400;
+    text-shadow: 5px 5px #21252b;
+    user-select: none;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.home__puesto{
+    color: #909295;
+    margin: 5px;
+    padding-top: 15px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    user-select: none;
+}
+
+.home__redes {
+    display: flex;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home__redes
+.home__redes-link{
+    color: #abb2bf;
+    margin: 8px;
+    padding: 0.4rem;
+    display: flex;
+    background:#272B30 ;
+    /* border-radius: 4px; */
+    text-decoration: none;
+    transition: all 100ms ease-in-out;
+}
+
+.home__redes-icon{
+    display: flex;
+    
+}
+
+.home__redes
+.home__redes-link:hover{
+    background-color: rgba(69, 73, 81,0.4);
+}
+
+.home__redes-icon i {
+    font-size: 0.9rem;
+}
+
+.home__redes-txt{
+    font-size: 0.6rem;
+    font-weight: 400;
+    margin-left: 6px;
+    letter-spacing: 1px;
+}
+
