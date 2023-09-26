@@ -1,6 +1,6 @@
 section {
     padding:30px;
-    height: calc(100vh - 40px);
+    min-height: calc(100vh - 40px);
 }
 
 .bg-section{
