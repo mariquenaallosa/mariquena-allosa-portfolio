@@ -22,18 +22,16 @@ ul.container-items{
 }
 
 li.item {
-    display: inline-block;
-
-        
+    display: inline-block; 
     box-shadow: none;
+    border-right: 1px solid #5C636E;
 }
 
 
 li.item span a{
     cursor: pointer;
     display: inline-block;
-    padding: 9.8px 15px;
-    border-right: 1px solid #5C636E;
+    padding: 9.8px 10px;
     text-align: -webkit-match-parent;
     font-size: 0.6rem;
     letter-spacing: 0.5px;
@@ -64,12 +62,15 @@ i.bi-house-door-fill{
 
 .bi-x {
     vertical-align: middle;
-    padding-left: 0.2rem;
+    text-align: center;
+    padding-left: 0;
 }
 
 .active-tab {
-    background-color: #282c34;
+    background-color: #21252b;
     color: #f3f3f3;
+    border: none;
+    padding: 0;
 }
 
 .active-tab span.item__cont-txt,.active-tab .bi-house-door-fill{

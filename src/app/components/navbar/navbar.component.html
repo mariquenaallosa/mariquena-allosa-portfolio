@@ -2,27 +2,33 @@
     <ul class="container-items">
         <li class="item" [ngClass]="{'active-tab' : currentTab === 'inicio'}">
             <span class="item__cont">
-                <a class="item__cont-link" (click)="updateTab('inicio')"  routerLink="/inicio">
+                <a class="item__cont-link" (click)="updateTab('inicio')" routerLink="/inicio">
                     <i class="bi bi-house-door-fill"></i>
                 </a>
             </span>
-            
+
         </li>
-        <li class="item" [ngClass]="{ 'active-tab': currentTab === 'proyectos' }" >
+        <li class="item" [ngClass]="{ 'active-tab': currentTab === 'proyectos' }">
             <span class="item__cont">
                 <a class="item__cont-link" (click)="updateTab('proyectos')" routerLink="/proyectos">
-                    <i class="bi bi-tools" style="color:#FF4C29;" ></i>
+                    <i class="bi bi-tools" style="color:#FF4C29;"></i>
                     <span class="item__cont-txt">proyectos.config</span>
-                    <i *ngIf="currentTab === 'proyectos'" class="bi bi-x" (click)="goToInicio()"></i>
+                    
+                </a>
+                <a (click)="goToInicio()" *ngIf="currentTab === 'proyectos'">
+                    <i  class="bi bi-x" ></i>
                 </a>
             </span>
         </li>
         <li class="item" [ngClass]="{ 'active-tab': currentTab === 'resumen' }">
             <span class="item__cont">
                 <a class="item__cont-link" (click)="updateTab('resumen')" routerLink="/resumen">
-                    <i class="bi bi-server" style="color: cornflowerblue;"></i>
-                    <span class="item__cont-txt">resumen.script</span>
-                    <i *ngIf="currentTab === 'resumen'" class="bi bi-x" (click)="goToInicio()"></i>
+                    <i class="fa-brands fa-square-js fa-lg" style="color: #ffea00;"></i>
+                    <span class="item__cont-txt">resumen.js</span>
+
+                </a>
+                <a *ngIf="currentTab === 'resumen'" (click)="goToInicio()">
+                    <i class="bi bi-x"></i>
                 </a>
             </span>
         </li>
@@ -30,12 +36,15 @@
         <li class="item" [ngClass]="{ 'active-tab': currentTab === 'educacion' }">
             <span class="item__cont">
                 <a class="item__cont-link" (click)="updateTab('educacion')" routerLink="/educacion">
-                    <i class="bi bi-server" style="color: cornflowerblue;"></i>
-                    <span class="item__cont-txt">educacion.js</span>
-                    <i *ngIf="currentTab === 'educacion'" class="bi bi-x" (click)="goToInicio()"></i>
+                    <i class="fa-brands fa-java fa-lg" style="color: #fd8e44;"></i>
+                    <span class="item__cont-txt">educacion.java</span>
                 </a>
+                <a *ngIf="currentTab === 'educacion'" (click)="goToInicio()">
+                    <i class="bi bi-x"></i>
+                </a>
+
             </span>
         </li>
-        
+
     </ul>
 </nav>

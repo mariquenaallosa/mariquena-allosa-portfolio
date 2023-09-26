@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 
 })
 export class AppComponent {
-  title = 'PrInt_MA';
+  title = 'Portfolio_Mariquena-Allosa';
   
  
 }

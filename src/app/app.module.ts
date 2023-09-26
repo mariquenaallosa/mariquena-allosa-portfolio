@@ -5,8 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
-import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
-import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 // Import ng-circle-progress
@@ -29,8 +27,6 @@ import { ResumenComponent } from './components/resumen/resumen.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    AcercaDeComponent,
-    ExperienciaComponent,
     EducacionComponent,
     ProyectosComponent,
     HomeComponent,

@@ -16,8 +16,10 @@ export class NavbarComponent {
     this.currentTab = tabName;
   }
 
-  goToInicio(){
-    this.router.navigate(['/']);
+  goToInicio() {
+    this.router.navigate(['/inicio']); 
+    this.currentTab = 'inicio';
+
   }
 
 
