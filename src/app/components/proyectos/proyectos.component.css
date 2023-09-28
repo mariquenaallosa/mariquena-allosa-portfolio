@@ -7,6 +7,16 @@ section {
     background-color:#21252b;
 }
 
+.card {
+    border: none;
+    background-color: transparent;
+}
+
+.card-text {
+    color: #f3f3f3;
+    font-size: 0.7rem;
+    font-weight: 400;
+}
 
 
 
