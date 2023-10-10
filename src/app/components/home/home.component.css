@@ -20,6 +20,7 @@ div.home-container {
     text-shadow: 5px 5px #21252b;
     user-select: none;
     letter-spacing: 3px;
+    line-height: normal;
     text-transform: uppercase;
     font-weight: 800;
 }
