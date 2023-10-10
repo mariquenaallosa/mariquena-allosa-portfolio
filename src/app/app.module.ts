@@ -7,8 +7,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
-// Import ng-circle-progress
-import { NgCircleProgressModule } from 'ng-circle-progress';
+
 //Conectar back con el front
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './components/home/home.component';
@@ -38,7 +37,6 @@ import { ResumenComponent } from './components/resumen/resumen.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     FormsModule,
-    NgCircleProgressModule.forRoot({}),
     HttpClientModule,
     ReactiveFormsModule,
     MatIconModule,
