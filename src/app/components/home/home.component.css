@@ -1,6 +1,6 @@
 div.home-container {
     background-color:#21252b ;
-    height: calc(100vh - 40px);
+    min-height: calc(100vh - 40px);
 }
 .home{
     width: 100%;
@@ -15,7 +15,7 @@ div.home-container {
     color: #c2c2c2;
     margin: 10px 20px;
     padding: 0;
-    font-size: 2.2rem;
+    font-size: 4rem;
     font-weight: 400;
     text-shadow: 5px 5px #21252b;
     user-select: none;
@@ -29,7 +29,7 @@ div.home-container {
     color: #909295;
     margin: 5px;
     padding-top: 15px;
-    font-size: 1.4rem;
+    font-size: 2.8rem;
     font-weight: 400;
     user-select: none;
 }
@@ -64,11 +64,11 @@ div.home-container {
 }
 
 .home__redes-icon i {
-    font-size: 0.9rem;
+    font-size: 2.2rem;
 }
 
 .home__redes-txt{
-    font-size: 0.6rem;
+    font-size: 1.2rem;
     font-weight: 400;
     margin-left: 6px;
     letter-spacing: 1px;
