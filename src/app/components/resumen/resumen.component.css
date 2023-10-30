@@ -1,8 +1,31 @@
 section {
     padding:30px;
-    height: calc(100vh - 40px);
+    min-height: calc(100vh - 40px);
+    color: #f3f3f3;
 }
 
 .bg-section{
     background-color:#21252b;
+}
+.resumen_about-txt{
+    padding-top: 2rem;
+}
+.resumen_title{
+    font-size: 1.8rem;
+}
+.resumen_title-dev{
+    font-size: 1rem;
+
+}
+.resumen_description{
+    font-size: 0.9rem;
+    line-height: normal;
+}
+.resumen-photo__profile {
+    background-color: #21252b;
+    padding: 3px;
+    object-fit: cover;
+    width:70%;
+    border-radius: 100%;
+    
 }
