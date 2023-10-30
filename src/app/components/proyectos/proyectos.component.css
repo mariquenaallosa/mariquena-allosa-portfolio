@@ -1,5 +1,5 @@
 section {
-    padding:30px;
+    padding:3em;
     min-height: calc(100vh - 40px);
 }
 
@@ -7,17 +7,35 @@ section {
     background-color:#21252b;
 }
 
-.card {
+.card, .card-footer {
     border: none;
     background-color: transparent;
 }
+.card-title{
+    color: #f3f3f3;
+    font-size: 1.3rem;
+    font-weight: 500;
 
+}
 .card-text {
     color: #f3f3f3;
-    font-size: 0.7rem;
-    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    font-weight: 300;
 }
 
+i{
+    color: #f3f3f3;
+    font-size: 0.9rem;
+ }
+
+.card-footer a {
+    color: #f3f3f3;
+    font-size: 1em;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 2em;
+ }
 
 
 
