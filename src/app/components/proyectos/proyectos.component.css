@@ -9,7 +9,17 @@ section {
 
 .card, .card-footer {
     border: none;
-    background-color: transparent;
+    background-color: transparent; 
+
+}
+.card .container-img{
+    height: 16em;
+}
+
+.card .container-img img{
+    height: 100%;
+    object-fit: cover; 
+    object-position: top center;
 }
 .card-title{
     color: #f3f3f3;
@@ -35,6 +45,11 @@ i{
     text-decoration: none;
     text-align: center;
     margin-right: 2em;
+ }
+ 
+ strong {
+    font-weight: 500;
+
  }
 
 
