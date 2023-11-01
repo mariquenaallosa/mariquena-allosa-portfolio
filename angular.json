@@ -48,18 +48,6 @@
                   "maximumError": "8mb"
                 }
               ],
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.prod.ts"
-                }
-              ],
-              "optimization": {
-              "scripts": true,
-              "styles": {
-                "minify": true,
-                "inlineCritical": false
-          }},
               "outputHashing": "all"
   
             },
@@ -75,21 +63,13 @@
           "defaultConfiguration": "production"
         },
         "serve": {
-          "builder": "@angular-devkit/build-angular:dev-server",
-          "configurations": {
-            "production": {
-              "browserTarget": "PrInt_MA:build:production"
-            },
-            "development": {
-              "browserTarget": "PrInt_MA:build:development"
-            }
-          },
-          "defaultConfiguration": "development"
+          "builder": "@angular-devkit/build-angular:dev-server"
+   
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "PrInt_MA:build"
+            "browserTarget": "Portfolio:build"
           }
         },
         "test": {
