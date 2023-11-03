@@ -23,7 +23,7 @@
         <li class="item" [ngClass]="{ 'active-tab': currentTab === 'resumen' }">
             <span class="item__cont">
                 <a class="item__cont-link" (click)="updateTab('resumen')" routerLink="/resumen">
-                    <i class="fa-brands fa-square-js fa-lg" style="color: #ffea00;"></i>
+                    <i class="fa-brands fa-square-js fa-xl" style="color: #ffea00;"></i>
                     <span class="item__cont-txt">resumen.js</span>
 
                 </a>
@@ -36,7 +36,7 @@
         <li class="item" [ngClass]="{ 'active-tab': currentTab === 'educacion' }">
             <span class="item__cont">
                 <a class="item__cont-link" (click)="updateTab('educacion')" routerLink="/educacion">
-                    <i class="fa-brands fa-java fa-lg" style="color: #fd8e44;"></i>
+                    <i class="fa-brands fa-java fa-xl" style="color: #fd8e44;"></i>
                     <span class="item__cont-txt">educacion.java</span>
                 </a>
                 <a *ngIf="currentTab === 'educacion'" (click)="goToInicio()">
