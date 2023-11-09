@@ -32,6 +32,7 @@ div.home-container {
     font-size: 2.8rem;
     font-weight: 400;
     user-select: none;
+    line-height: normal;
 }
 
 .home__redes {
@@ -73,4 +74,26 @@ div.home-container {
     margin-left: 6px;
     letter-spacing: 1px;
 }
+
+
+@media (max-width: 45rem){
+    .home__nombre {
+        padding: 0.8em;
+        padding-bottom: 0.03em;
+        font-size: 3.5rem;
+    }
+
+    .home__puesto{
+        padding-top: 0;
+        margin-top: 0;
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+    
+    .home__redes {
+        flex-direction: column;
+    }
+    
+}
+
 
