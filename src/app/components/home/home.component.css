@@ -4,7 +4,7 @@ div.home-container {
 }
 .home{
     width: 100%;
-    height: calc(100vh - 62px);
+    min-height: calc(100vh - 62px);
     display: flex;
     align-items: center;
     flex-direction: column;
