@@ -7,12 +7,16 @@ section {
     background-color:#21252b;
 }
 
-.card, .card-footer {
+div.card {
     border: none;
     background-color: rgb(18,18,18); 
     border-radius: 0;
-
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
+
 .card .container-img{
     height: 16em;
 }
@@ -45,7 +49,7 @@ i{
     justify-content: center;
     align-items: center;
     flex-flow: wrap;
-    gap: 5px;
+    gap: 4px;
     margin-top: 16px;
     
 }
@@ -54,13 +58,13 @@ i{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 4px;
     width: 80px;
     color: #f3f3f3;
 }
 
 img.img-tech {
-    height: 40px;
+    height: 30px;
 }
 
 .container-links{
