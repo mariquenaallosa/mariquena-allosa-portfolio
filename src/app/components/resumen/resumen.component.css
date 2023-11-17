@@ -31,8 +31,43 @@ section {
     
 }
 .resumen-skills {
-    margin-top: 10em;
+    padding-top: 25em;
 }
+
+.container_skills {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: wrap;
+    margin-top: -40px;
+    margin-left: -30px;
+    width: calc(100% + 40px);
+    justify-content: center;
+}
+
+.item_skills{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.img_skills {
+    height: 60px;
+}
+.img_skills img {
+    height: 100%;
+    margin-left: 7px;
+}
+.skills{
+    text-align: center;
+    margin: 8px 0px 0px;
+    font-weight: 400;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    font-size: 1rem;
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+}
+
+
 
 @media (max-width: 45rem){
     .resumen_title{
